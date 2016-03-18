@@ -1,0 +1,153 @@
+body{
+    background-color:#DEDEDE;
+}
+.logo {
+    float: left;
+    color: #fff;;
+}
+
+.navall {
+    width: 100%;
+}
+
+.navbar {
+    background-color: #333;
+    margin: -20px -10px 0px -10px;
+    height: 60px;
+
+}
+
+.navbar ul li {
+    float: right;
+    display: inline;
+    line-height: 60px;
+    padding-right: 20px;
+
+}
+.container{
+    clear:both;
+}
+.article1{
+    background-color:#fff;
+    margin:20px;
+    padding:20px;
+    box-shadow: 5px 5px 20px #333;
+}
+.article1 p{
+    text-indent:2em;
+}
+.article1 .firsttitle h3{
+    color:#737373;
+    margin-top:20px;
+}
+.article1 .articleintro1{
+    font-size:0.7em;
+    color:#737373;
+    display:inline-block;
+}
+.imglist img{
+    width:100px;
+    height:100px;
+/*     margin-left:100px; */
+}
+.imglist figure{
+    border-style:solid;
+    border-width:1px;
+    padding:0px 10px 10px 10px;
+    width:100px;
+    margin-left:100px;
+    text-align:center;
+}
+.article2{
+    background-color:#fff;
+    margin:20px;
+    padding:20px;
+    box-shadow: 5px 5px 20px #333;
+}
+.article2 p{
+    text-indent:2em;
+}
+.articletitle .lasttitle h3{
+    color:#737373;
+    margin-top:20px;
+}
+.article2 .articleintro2{
+    font-size:0.7em;
+    color:#737373;
+    display:inline-block;
+}
+.article2 table{
+    text-align:left;
+    width:100%;
+   
+    border-collapse:collapse;
+}
+.article2 th,tr,td{
+    height:30px;
+    border:1px;
+    border-style:solid;
+    border-color:#ccc;
+
+}
+.article2 th{
+
+    background-color:#333;
+    color:#fff
+
+}
+tfoot{
+    background-color:#ccc;
+}
+aside{
+    margin:20px;
+    padding:20px;
+	background-color:#fff;
+}
+aside h3{
+	border-left: 5px solid #ccc;
+	font-size: 1em;
+	padding: 10px;
+}
+aside form div{
+	margin: 10px;
+}
+
+.form-r{
+	display: inline-block;
+	text-align: right;
+	width: 30%;
+}
+.form-block{
+	display: inline-block;
+	vertical-align: text-top;
+	margin: 0px;
+}
+.hint{
+	color: #b3b3b3;
+	font-size: 0.8em;
+}
+
+textarea{
+    vertical-align:text-top;
+    width:50%;
+    height:8em;
+}
+button{
+    background-color: #0047b3;
+	border-style: none;
+	border-radius:10px;
+	width: 100%;
+	height: 40px;
+	color: #fff;
+	font-size: 1em;
+}
+footer{
+    background-color: #000;
+    margin: 0px -10px;
+    height: 60px;
+}
+.copyright{
+    color:#fff;
+    text-align:center;
+    padding:15px;
+}
